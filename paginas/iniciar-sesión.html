@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es_AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión</title>
+    <link
+      rel="shortcut icon"
+      href="../img/icons8-despegue-100.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <header class="color-de-fondo color-de-letra imag-header">
+      <a href="../index.html"
+        ><img
+          src="../img/icons8-bosque-100.png"
+          alt="una hoja silvestre y un arbol"
+      /></a>
+      <nav class="menu-nav-principal">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contactos.html">Contactos</a></li>
+          <li><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
+        </ul>
+        <ul>
+          <li><a href="./iniciar-sesión.html">Iniciar Sesión</a></li>
+          <li><a href="./registrarse.html">Registrarse</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form class="formulario-inicio" action="">
+        <label for="idnombreusuario"> Nombre de Usuario </label>
+        <input
+          type="text"
+          id="idnombreusuario"
+          placeholder="Por ejemplo: Usuario123"
+          required
+          minlength="6"
+          maxlength="20"
+        />
+        <br />
+        <label for="idcontrasenia"> Contraseña </label>
+        <input
+          id="idcontrasenia"
+          type="password"
+          required
+          minlength="8"
+          maxlength="20"
+        />
+        <br />
+        <button type="submit">Ingresar</button>
+        <p>¿Olvidaste tu contraseña? Haz<a href="">click aqui</a></p>
+        <p>¿No tenes una cuenta?<a href="./registrarse.html">Registrarse</a></p>
+      </form>
+      <section class="formulario-inicio">
+        <p>Inicia sesion con:</p>
+        <br />
+        <button>Google</button>
+        <small>o</small>
+        <button>Facebook</button>
+      </section>
+    </main>
+    <footer class="footer">
+      <section>
+        <a href="../index.html"
+          ><img
+            src="../img/icons8-bosque-100.png"
+            alt="una hoja silvestre y un arbol"
+        /></a>
+      </section>
+      <section>
+        <ul>
+          <li><a href="">Terminos y condiciones</a></li>
+          <li><a href="">Trabaja con nosotros</a></li>
+          <li><a href="">Contactos</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>

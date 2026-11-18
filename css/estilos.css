@@ -1,0 +1,114 @@
+.imag-header img {
+  width: 100px;
+}
+
+.menu-nav-principal a {
+  /*   border: 1px solid;
+  border-radius: 30px; */
+  padding: 5px;
+  text-decoration: none;
+  color: wheat;
+}
+
+.menu-nav-principal li {
+  list-style: none;
+}
+
+.menu-nav-principal {
+  display: inline-block;
+}
+
+.menu-nav-principal li {
+  display: inline-block;
+}
+
+.menu-nav-principal ul {
+  display: inline-block;
+}
+
+.galeria-de-imagenes img {
+  width: 100%;
+}
+
+main {
+  min-height: 50vh;
+}
+
+.footer img {
+  width: 150px;
+}
+
+.tarjeta-producto {
+  display: inline-block;
+  padding: 15px;
+  margin: 0px 20px 40px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 16px 19px 14px 4px #000000;
+}
+
+.contenido-principal {
+  text-align: center;
+}
+
+.contenido-principal p::first-letter {
+  font-size: 40px;
+  background-color: red;
+}
+
+.color-de-fondo {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 16%,
+    rgba(87, 199, 133, 1) 82%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+
+* {
+  margin: 0%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.footer li,
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu-nav-principal a:hover {
+  color: red;
+}
+
+.tarjeta-producto button {
+  text-decoration: none;
+  color: white;
+  margin: 10px 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: red;
+}
+
+.tarjeta-producto button:hover {
+  background-color: rgb(235, 122, 122);
+}
+
+.formulario-reg {
+  margin: 10px;
+}
+
+form * {
+  margin: 5px;
+}
+
+::selection {
+  background: aqua;
+}
+
+.formulario-inicio {
+  margin: 10px;
+}
